@@ -1,0 +1,19 @@
+{
+  "name": "@ktb/func-tools",
+  "version": "0.1.0",
+  "description": "functional utilities",
+  "author": "KonTrax",
+  "license": "ISC",
+  "main": "index.js",
+  "homepage": "https://github.com/KonTrax/func-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonTrax/func-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KonTrax/func-tools/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
