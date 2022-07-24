@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"target": "es2018",
+		"module": "commonjs",
+		"lib": [
+			// "ES2018",
+			"ESNext"
+		],
+
+		"strict": true,
+		"strictNullChecks": true,
+		// "exactOptionalPropertyTypes": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+
+		"importsNotUsedAsValues": "error",
+		"forceConsistentCasingInFileNames": true,
+
+		"newLine": "lf"
+	}
+	,"files": []
+	,"include": []
+	,"exclude": []
+	,"references": []
+}
