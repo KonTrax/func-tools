@@ -1,4 +1,5 @@
 {
 	"typescript.tsdk": "node_modules\\typescript\\lib",
-	"code-runner.fileDirectoryAsCwd": true
+	"code-runner.fileDirectoryAsCwd": true,
+	"files.insertFinalNewline": true
 }
