@@ -1,0 +1,35 @@
+{
+	"extends": "../tsconfig.base.json",
+	"compilerOptions": {
+		"noEmit": true,
+
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+
+		"rootDir": "../",
+		"baseUrl": "../",
+		"paths": {
+			"tests:*": ["tests/*"],
+			"tests:":  ["tests/*"],
+			"types:*": ["types/*"],
+			"types:":  ["types/*"],
+			"src:*": ["src/*"],
+			"src:":  ["src/*"],
+			"src":   ["src"]
+		},
+
+		"newLine": "lf"
+	}
+	,"include": [
+		"../src/**/*.test.ts",
+		// "../types/**/*.d.ts",
+		"./**/*"
+	]
+	,"exclude": [
+		"**/_local",
+		"**/node_modules"
+	]
+	,"ts-node": {
+		"require": ["tsconfig-paths/register"]
+	}
+}

@@ -13,6 +13,8 @@
 		// "exactOptionalPropertyTypes": true,
 		"strictFunctionTypes": true,
 		"strictBindCallApply": true,
+		"noImplicitAny": true,
+		"alwaysStrict": true,
 
 		"importsNotUsedAsValues": "error",
 		"forceConsistentCasingInFileNames": true,
